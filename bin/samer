@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'samer'
+puts Samer.find_for ARGV[0]
+puts Samer.recommend ARGV[0]
